@@ -1,0 +1,94 @@
+{
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/focus/focus",
+      "style": {
+        "navigationBarTitleText": "关注",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/notice/notice",
+      "style": {
+        "navigationBarTitleText": "通知",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/center/center",
+      "style": {
+        "navigationBarTitleText": "个人中心",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path" : "pages/posts/detail/detail",
+      "style" :                                                                                    
+      {
+          "navigationBarTitleText": "排行详情",
+          "enablePullDownRefresh": false
+      }
+    }
+    ,{
+        "path" : "pages/posts/create/create",
+        "style" :                                                                                    
+        {
+            "navigationBarTitleText": "创建排行",
+            "enablePullDownRefresh": false
+        }
+        
+    }
+    ,{
+        "path" : "pages/users/sign-in/sign-in",
+        "style" :                                                                                    
+        {
+            "navigationBarTitleText": "登录",
+            "enablePullDownRefresh": false
+        }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "排名",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "uniIdRouter": {},
+  "tabBar": {
+    "backgroundColor": "#f1f1f1",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/img/tabbar/home.png",
+        "selectedIconPath": "static/img/tabbar/homeactive.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/focus/focus",
+        "iconPath": "static/img/tabbar/guanzhu.png",
+        "selectedIconPath": "static/img/tabbar/guanzhuactive.png",
+        "text": "关注"
+      },
+      {
+        "pagePath": "pages/notice/notice",
+        "iconPath": "static/img/tabbar/news.png",
+        "selectedIconPath": "static/img/tabbar/newsactive.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/img/tabbar/me.png",
+        "selectedIconPath": "static/img/tabbar/meactive.png",
+        "text": "我"
+      }
+    ]
+  }
+}
