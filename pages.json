@@ -78,6 +78,13 @@
         "text": "关注"
       },
       {
+        
+          "pagePath": "pages/posts/create/create",
+          "iconPath": "static/img/tabbar/guanzhu.png",
+          "selectedIconPath": "static/img/tabbar/guanzhuactive.png",
+          "text": "创建"
+      },
+      {
         "pagePath": "pages/notice/notice",
         "iconPath": "static/img/tabbar/news.png",
         "selectedIconPath": "static/img/tabbar/newsactive.png",

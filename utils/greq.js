@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { print } from 'graphql'
 
-const BASE_URL = 'http://127.0.0.1:30001/graphql'
+const BASE_URL = 'http://127.0.0.1:9020/graphql'
 
 export const gReq = (options) => {
 	return new Promise((resolve, reject) => {
